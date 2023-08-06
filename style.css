@@ -1,0 +1,12 @@
+button{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+image{
+    float: left;
+    margin: 10px;
+}
