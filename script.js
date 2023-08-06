@@ -9,6 +9,9 @@ slider.style.height = '200px';
 let ImageArr = ['https://soliloquywp.com/wp-content/uploads/2019/04/nb_sss_8.jpg','https://soliloquywp.com/wp-content/uploads/2019/04/nb_sss_4.jpg','https://soliloquywp.com/wp-content/uploads/2019/04/stunning-spring-sliders.jpg'];
 let imageslength = ImageArr.length;
 
+//Auto Slide show
+let slideInterval = setInterval(next,5000);
+
 
 
 //Action Buttons
@@ -27,3 +30,10 @@ function prev(){
     }
     slider.src = ImageArr[num];
 }
+
+//Event Lis...
+
+
+nextBtn.addEventListener('click',next);
+prevBtn.addEventListener('click',prev);
+
