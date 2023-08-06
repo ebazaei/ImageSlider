@@ -4,9 +4,15 @@ button{
     width: 200px;
     background-color: blueviolet;
     color: antiquewhite;
+    border: none;
+}
+button:hover{
+    background-color: #c286fa;
+    color: #ffffff;
 }
 
 image{
     float: left;
     margin: 10px;
 }
+
